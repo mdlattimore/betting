@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sportsbook Payout Calculator</title>
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <script defer src="https://pyscript.net/releases/2023.03.1/pyscript.js"></script>
+    </head>
+    
+<body>
+    <h1 class="text-center">Book Payouts</h1>
+    <h2 class="text-center">NFL</h2>
+    <h3 class="text-center">Pre-Season Week 2</h3>
+    <p class="text-center">Enter your bet and the page will display the payouts for this week's games.</p>
+    <br>
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 text-center">
+            <label for="bet" class="form-label">Bet:&nbsp;&nbsp;</label>
+            <input type="text" id="bet" name="bet" style="outline: solid; width: 50%; display: inline;" class="form-control form-control-sm" autofocus><br>
+            <button py-click="go()">Go!</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4" id="longestshot" style="font-size: 1rem;">
+        </div>
+        <div class="col-sm-4" id="biggestspread" style="font-size: 1rem; font-family:Arial, Helvetica, sans-serif">
+        </div>
+        <div class="col-sm-4" id="smallestspread" style="font-size: 1rem;">   
+        </div>
+    </div>
+    <h3 id="all_odds_header"></h3>
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4" id="all_odds1", style="font-size: 1rem"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4" id="all_odds2", style="font-size: 1rem"></div>
+    </div>
+
+    <py-config src="./pyscript.toml"></py-config>
+    <py-script src="./main.py"></py-script>
+</body>
+</html>
