@@ -1,0 +1,20 @@
+[
+    {
+        "team1": "UNC",
+        "team2": "Wake Forest",
+        "team1_line": -125.0,
+        "team2_line": 120.0,
+        "team1_spread": -4.0,
+        "team2_spread": 4.0,
+        "over_under": 55.0
+    },
+    {
+        "team1": "Duke",
+        "team2": "UVA",
+        "team1_line": -130.0,
+        "team2_line": 150.0,
+        "team1_spread": -5.0,
+        "team2_spread": 5.0,
+        "over_under": 45.0
+    }
+]

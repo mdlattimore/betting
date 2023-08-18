@@ -4,6 +4,12 @@ from pprint import pprint
 games = []
 
 if __name__ == '__main__':
+    print("What League?")
+    sport = int(input("1) NFL\n2) NCAAF\n> "))
+    if sport == 1:
+        league = "nfl"
+    elif sport == 2:
+        league = "ncaaf" 
     week = input("What week? ")
     while True:
         team1 = input("Team 1: ")
@@ -28,5 +34,5 @@ if __name__ == '__main__':
     json_object = json.dumps(games, indent=4)
     
     # Writing to sample.json
-    with open(f"week_{week}_games.json", "w") as outfile:
+    with open(f"{league}_week_{week}_games.json", "w") as outfile:
         outfile.write(json_object)

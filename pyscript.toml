@@ -2,4 +2,5 @@
 enabled=false
 
 [[fetch]]
-files = ['./nfl_games.json']
+files = ['./nfl_games.json', 
+         './ncaaf_games.json']
