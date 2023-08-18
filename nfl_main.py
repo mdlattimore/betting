@@ -3,7 +3,7 @@ import json
 
 
 
-with open('games.json', 'r') as openfile:
+with open('nfl_games.json', 'r') as openfile:
  
     # Reading from json file
     games = json.load(openfile)

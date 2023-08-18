@@ -23,7 +23,7 @@
         <div class="col-sm-3"></div>
         <div class="col-sm-6 text-center">
             <label for="bet" class="form-label">Bet:&nbsp;&nbsp;</label>
-            <input type="text" id="bet" name="bet" style="outline: solid; width: 50%; display: inline;" class="form-control form-control-sm" autofocus><br>
+            <input type="number" id="bet" name="bet" style="outline: solid; width: 50%; display: inline;" class="form-control form-control-sm" autofocus><br>
             <button py-click="go()">Go!</button>
         </div>
     </div>
@@ -44,6 +44,6 @@
     </div>
 
     <py-config src="./pyscript.toml"></py-config>
-    <py-script src="./main.py"></py-script>
+    <py-script src="./nfl_main.py"></py-script>
 </body>
 </html>
