@@ -1,20 +1,470 @@
 [
     {
-        "team1": "UNC",
-        "team2": "Wake Forest",
-        "team1_line": -125.0,
-        "team2_line": 120.0,
-        "team1_spread": -4.0,
-        "team2_spread": 4.0,
+        "team1": "Navy Midshipmen",
+        "team2": "Notre Dame Fighting Irish",
+        "team1_line": 800,
+        "team2_line": -1350,
+        "team1_spread": 20.5,
+        "team2_spread": -20.5,
+        "over_under": 50.5
+    },
+    {
+        "team1": "UTEP Miners",
+        "team2": "Jacksonville State Gamecocks",
+        "team1_line": -115,
+        "team2_line": -105,
+        "team1_spread": -1.0,
+        "team2_spread": 1.0,
+        "over_under": 52.0
+    },
+    {
+        "team1": "UMass Minutemen",
+        "team2": "New Mexico State Aggies",
+        "team1_line": 260,
+        "team2_line": -325,
+        "team1_spread": 8.0,
+        "team2_spread": -8.0,
+        "over_under": 44.5
+    },
+    {
+        "team1": "Ohio Bobcats",
+        "team2": "San Diego State Aztecs",
+        "team1_line": 130,
+        "team2_line": -155,
+        "team1_spread": 3.5,
+        "team2_spread": -3.5,
+        "over_under": 49.0
+    },
+    {
+        "team1": "Hawaii Rainbow Warriors",
+        "team2": "Vanderbilt Commodores",
+        "team1_line": 675,
+        "team2_line": -1050,
+        "team1_spread": 17.5,
+        "team2_spread": -17.5,
+        "over_under": 55.5
+    },
+    {
+        "team1": "San Jose State Spartans",
+        "team2": "USC Trojans",
+        "team1_line": 2500,
+        "team2_line": -9000,
+        "team1_spread": 30.5,
+        "team2_spread": -30.5,
+        "over_under": 64.5
+    },
+    {
+        "team1": "Florida International Panthers",
+        "team2": "Louisiana Tech Bulldogs",
+        "team1_line": 295,
+        "team2_line": -375,
+        "team1_spread": 10.5,
+        "team2_spread": -10.5,
+        "over_under": 59.0
+    },
+    {
+        "team1": "Kent State Golden Flashes",
+        "team2": "UCF Knights",
+        "team1_line": -110,
+        "team2_line": -110,
+        "team1_spread": 58.5,
+        "team2_spread": 58.5,
+        "over_under": "N/A"
+    },
+    {
+        "team1": "NC State Wolfpack",
+        "team2": "UConn Huskies",
+        "team1_line": -750,
+        "team2_line": 525,
+        "team1_spread": -15.0,
+        "team2_spread": 15.0,
+        "over_under": 47.0
+    },
+    {
+        "team1": "Florida Gators",
+        "team2": "Utah Utes",
+        "team1_line": 235,
+        "team2_line": -290,
+        "team1_spread": 7.0,
+        "team2_spread": -7.0,
+        "over_under": 47.0
+    },
+    {
+        "team1": "Nebraska Cornhuskers",
+        "team2": "Minnesota Golden Gophers",
+        "team1_line": 210,
+        "team2_line": -258,
+        "team1_spread": 7.0,
+        "team2_spread": -7.0,
+        "over_under": 46.0
+    },
+    {
+        "team1": "Central Michigan Chippewas",
+        "team2": "Michigan State Spartans",
+        "team1_line": 455,
+        "team2_line": -625,
+        "team1_spread": 14.5,
+        "team2_spread": -14.5,
+        "over_under": 49.5
+    },
+    {
+        "team1": "Miami (OH) RedHawks",
+        "team2": "Miami Hurricanes",
+        "team1_line": 625,
+        "team2_line": -950,
+        "team1_spread": 17.5,
+        "team2_spread": -17.5,
+        "over_under": 46.5
+    },
+    {
+        "team1": "Louisville Cardinals",
+        "team2": "Georgia Tech Yellow Jackets",
+        "team1_line": -305,
+        "team2_line": 245,
+        "team1_spread": -8.0,
+        "team2_spread": 8.0,
+        "over_under": 51.5
+    },
+    {
+        "team1": "Stanford Cardinal",
+        "team2": "Hawaii Rainbow Warriors",
+        "team1_line": -298,
+        "team2_line": 240,
+        "team1_spread": -7.5,
+        "team2_spread": 7.5,
+        "over_under": 58.5
+    },
+    {
+        "team1": "Colorado Buffaloes",
+        "team2": "TCU Horned Frogs",
+        "team1_line": 675,
+        "team2_line": -1050,
+        "team1_spread": 20.5,
+        "team2_spread": -20.5,
+        "over_under": 59.5
+    },
+    {
+        "team1": "South Carolina Gamecocks",
+        "team2": "North Carolina Tar Heels",
+        "team1_line": 120,
+        "team2_line": -142,
+        "team1_spread": 2.5,
+        "team2_spread": -2.5,
+        "over_under": 62.0
+    },
+    {
+        "team1": "West Virginia Mountaineers",
+        "team2": "Penn State Nittany Lions",
+        "team1_line": 950,
+        "team2_line": -1650,
+        "team1_spread": 20.5,
+        "team2_spread": -20.5,
+        "over_under": 53.5
+    },
+    {
+        "team1": "Arkansas State Red Wolves",
+        "team2": "Oklahoma Sooners",
+        "team1_line": -110,
+        "team2_line": -110,
+        "team1_spread": 61.0,
+        "team2_spread": 61.0,
+        "over_under": "N/A"
+    },
+    {
+        "team1": "Ball State Cardinals",
+        "team2": "Kentucky Wildcats",
+        "team1_line": 1800,
+        "team2_line": -5000,
+        "team1_spread": 26.5,
+        "team2_spread": -26.5,
+        "over_under": 48.5
+    },
+    {
+        "team1": "Northern Illinois Huskies",
+        "team2": "Boston College Eagles",
+        "team1_line": 280,
+        "team2_line": -355,
+        "team1_spread": 9.5,
+        "team2_spread": -9.5,
+        "over_under": 52.0
+    },
+    {
+        "team1": "Bowling Green Falcons",
+        "team2": "Liberty Flames",
+        "team1_line": 340,
+        "team2_line": -440,
+        "team1_spread": 12.5,
+        "team2_spread": -12.5,
+        "over_under": 51.5
+    },
+    {
+        "team1": "East Carolina Pirates",
+        "team2": "Michigan Wolverines",
+        "team1_line": -110,
+        "team2_line": -110,
+        "team1_spread": 51.5,
+        "team2_spread": 51.5,
+        "over_under": "N/A"
+    },
+    {
+        "team1": "Fresno State Bulldogs",
+        "team2": "Purdue Boilermakers",
+        "team1_line": 160,
+        "team2_line": -192,
+        "team1_spread": 4.0,
+        "team2_spread": -4.0,
+        "over_under": 50.5
+    },
+    {
+        "team1": "Utah State Aggies",
+        "team2": "Iowa Hawkeyes",
+        "team1_line": 1200,
+        "team2_line": -2400,
+        "team1_spread": 23.5,
+        "team2_spread": -23.5,
+        "over_under": 43.0
+    },
+    {
+        "team1": "Louisiana Tech Bulldogs",
+        "team2": "SMU Mustangs",
+        "team1_line": 575,
+        "team2_line": -850,
+        "team1_spread": 18.0,
+        "team2_spread": -18.0,
+        "over_under": 65.5
+    },
+    {
+        "team1": "Virginia Cavaliers",
+        "team2": "Tennessee Volunteers",
+        "team1_line": 2000,
+        "team2_line": -6500,
+        "team1_spread": 28.0,
+        "team2_spread": -28.0,
+        "over_under": 58.0
+    },
+    {
+        "team1": "Akron Zips",
+        "team2": "Temple Owls",
+        "team1_line": 285,
+        "team2_line": -360,
+        "team1_spread": 10.5,
+        "team2_spread": -10.5,
         "over_under": 55.0
     },
     {
-        "team1": "Duke",
-        "team2": "UVA",
-        "team1_line": -130.0,
-        "team2_line": 150.0,
-        "team1_spread": -5.0,
-        "team2_spread": 5.0,
-        "over_under": 45.0
+        "team1": "UMass Minutemen",
+        "team2": "Auburn Tigers",
+        "team1_line": -110,
+        "team2_line": -110,
+        "team1_spread": 53.5,
+        "team2_spread": 53.5,
+        "over_under": "N/A"
+    },
+    {
+        "team1": "Boise State Broncos",
+        "team2": "Washington Huskies",
+        "team1_line": 470,
+        "team2_line": -650,
+        "team1_spread": 14.5,
+        "team2_spread": -14.5,
+        "over_under": 59.0
+    },
+    {
+        "team1": "Buffalo Bulls",
+        "team2": "Wisconsin Badgers",
+        "team1_line": 1400,
+        "team2_line": -3200,
+        "team1_spread": 25.0,
+        "team2_spread": -25.0,
+        "over_under": 55.0
+    },
+    {
+        "team1": "Rice Owls",
+        "team2": "Texas Longhorns",
+        "team1_line": -110,
+        "team2_line": -110,
+        "team1_spread": 59.0,
+        "team2_spread": 59.0,
+        "over_under": "N/A"
+    },
+    {
+        "team1": "South Florida Bulls",
+        "team2": "Western Kentucky Hilltoppers",
+        "team1_line": 410,
+        "team2_line": -550,
+        "team1_spread": 13.5,
+        "team2_spread": -13.5,
+        "over_under": 71.0
+    },
+    {
+        "team1": "Ohio State Buckeyes",
+        "team2": "Indiana Hoosiers",
+        "team1_line": -6500,
+        "team2_line": 2000,
+        "team1_spread": -28.5,
+        "team2_spread": 28.5,
+        "over_under": 60.0
+    },
+    {
+        "team1": "California Golden Bears",
+        "team2": "North Texas Mean Green",
+        "team1_line": -325,
+        "team2_line": 260,
+        "team1_spread": -7.5,
+        "team2_spread": 7.5,
+        "over_under": 58.0
+    },
+    {
+        "team1": "Nevada Wolf Pack",
+        "team2": "USC Trojans",
+        "team1_line": -110,
+        "team2_line": -110,
+        "team1_spread": 63.5,
+        "team2_spread": 63.5,
+        "over_under": "N/A"
+    },
+    {
+        "team1": "Army Black Knights",
+        "team2": "UL Monroe Warhawks",
+        "team1_line": -325,
+        "team2_line": 260,
+        "team1_spread": -8.0,
+        "team2_spread": 8.0,
+        "over_under": 48.5
+    },
+    {
+        "team1": "Washington State Cougars",
+        "team2": "Colorado State Rams",
+        "team1_line": -535,
+        "team2_line": 400,
+        "team1_spread": -12.0,
+        "team2_spread": 12.0,
+        "over_under": 58.0
+    },
+    {
+        "team1": "UTSA Roadrunners",
+        "team2": "Houston Cougars",
+        "team1_line": -110,
+        "team2_line": -110,
+        "team1_spread": 0.0,
+        "team2_spread": 0.0,
+        "over_under": 61.0
+    },
+    {
+        "team1": "Texas State Bobcats",
+        "team2": "Baylor Bears",
+        "team1_line": 1600,
+        "team2_line": -4000,
+        "team1_spread": 26.0,
+        "team2_spread": -26.0,
+        "over_under": 58.0
+    },
+    {
+        "team1": "New Mexico Lobos",
+        "team2": "Texas A&M Aggies",
+        "team1_line": -110,
+        "team2_line": -110,
+        "team1_spread": 49.0,
+        "team2_spread": 49.0,
+        "over_under": "N/A"
+    },
+    {
+        "team1": "Toledo Rockets",
+        "team2": "Illinois Fighting Illini",
+        "team1_line": 295,
+        "team2_line": -375,
+        "team1_spread": 9.0,
+        "team2_spread": -9.0,
+        "over_under": 49.5
+    },
+    {
+        "team1": "Texas Tech Red Raiders",
+        "team2": "Wyoming Cowboys",
+        "team1_line": -600,
+        "team2_line": 440,
+        "team1_spread": -14.0,
+        "team2_spread": 14.0,
+        "over_under": 53.0
+    },
+    {
+        "team1": "Middle Tennessee Blue Raiders",
+        "team2": "Alabama Crimson Tide",
+        "team1_line": -110,
+        "team2_line": -110,
+        "team1_spread": 54.5,
+        "team2_spread": 54.5,
+        "over_under": "N/A"
+    },
+    {
+        "team1": "Old Dominion Monarchs",
+        "team2": "Virginia Tech Hokies",
+        "team1_line": 400,
+        "team2_line": -535,
+        "team1_spread": 14.0,
+        "team2_spread": -14.0,
+        "over_under": 49.5
+    },
+    {
+        "team1": "South Alabama Jaguars",
+        "team2": "Tulane Green Wave",
+        "team1_line": 225,
+        "team2_line": -278,
+        "team1_spread": 7.0,
+        "team2_spread": -7.0,
+        "over_under": 55.0
+    },
+    {
+        "team1": "Sam Houston State Bearkats",
+        "team2": "BYU Cougars",
+        "team1_line": 1200,
+        "team2_line": -2400,
+        "team1_spread": 23.0,
+        "team2_spread": -23.0,
+        "over_under": 50.5
+    },
+    {
+        "team1": "Coastal Carolina Chanticleers",
+        "team2": "UCLA Bruins",
+        "team1_line": 525,
+        "team2_line": -750,
+        "team1_spread": 16.5,
+        "team2_spread": -16.5,
+        "over_under": 64.5
+    },
+    {
+        "team1": "LSU Tigers",
+        "team2": "Florida State Seminoles",
+        "team1_line": -142,
+        "team2_line": 120,
+        "team1_spread": -2.5,
+        "team2_spread": 2.5,
+        "over_under": 56.0
+    },
+    {
+        "team1": "Northwestern Wildcats",
+        "team2": "Rutgers Scarlet Knights",
+        "team1_line": 242,
+        "team2_line": -309,
+        "team1_spread": 7.0,
+        "team2_spread": -7.0,
+        "over_under": 40.5
+    },
+    {
+        "team1": "Oregon State Beavers",
+        "team2": "San Jose State Spartans",
+        "team1_line": -900,
+        "team2_line": 600,
+        "team1_spread": -16.5,
+        "team2_spread": 16.5,
+        "over_under": 54.5
+    },
+    {
+        "team1": "Clemson Tigers",
+        "team2": "Duke Blue Devils",
+        "team1_line": -485,
+        "team2_line": 370,
+        "team1_spread": -12.5,
+        "team2_spread": 12.5,
+        "over_under": 55.0
     }
 ]

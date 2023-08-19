@@ -1,0 +1,54 @@
+Week 1
+    start = parser.parse("2023-09-07T00:00:00Z")
+    stop: = parser.parse("2023-09-13T23:59:59Z")
+Week 2
+    start = parser.parse("2023-09-14T00:00:00Z")
+    stop: = parser.parse("2023-09-20T23:59:59Z")
+Week 3
+    start = parser.parse("2023-09-21T00:00:00Z")
+    stop: = parser.parse("2023-09-27T23:59:59Z")
+Week 4
+    start = parser.parse("2023-09-28T00:00:00Z")
+    stop: = parser.parse("2023-10-04T23:59:59Z")
+Week 5
+    start = parser.parse("2023-10-05T00:00:00Z")
+    stop: = parser.parse("2023-10-11T23:59:59Z")
+Week 6
+    start = parser.parse("2023-10-12T00:00:00Z")
+    stop: = parser.parse("2023-10-18T23:59:59Z")
+Week 7
+    start = parser.parse("2023-10-19T00:00:00Z")
+    stop: = parser.parse("2023-10-25T23:59:59Z")     
+Week 8
+    start = parser.parse("2023-10-26T00:00:00Z")
+    stop: = parser.parse("2023-11-01T23:59:59Z")
+Week 9
+    start = parser.parse("2023-11-02T00:00:00Z")
+    stop: = parser.parse("2023-11-08T23:59:59Z") 
+Week 10
+    start = parser.parse("2023-11-09T00:00:00Z")
+    stop: = parser.parse("2023-11-15T23:59:59Z")
+Week 11
+    start = parser.parse("2023-11-16T00:00:00Z")
+    stop: = parser.parse("2023-11-22T23:59:59Z")
+Week 12
+    start = parser.parse("2023-11-23T00:00:00Z")
+    stop: = parser.parse("2023-11-29T23:59:59Z")
+Week 13
+    start = parser.parse("2023-11-30T00:00:00Z")
+    stop: = parser.parse("2023-12-06T23:59:59Z")     
+Week 14
+    start = parser.parse("2023-12-07T00:00:00Z")
+    stop: = parser.parse("2023-12-13T23:59:59Z")
+Week 15
+    start = parser.parse("2023-12-14T00:00:00Z")
+    stop: = parser.parse("2023-12-20T23:59:59Z")
+Week 16
+    start = parser.parse("2023-12-21T00:00:00Z")
+    stop: = parser.parse("2023-12-27T23:59:59Z")
+Week 17
+    start = parser.parse("2023-12-28T00:00:00Z")
+    stop: = parser.parse("2024-01-03T23:59:59Z") 
+Week 18
+    start = parser.parse("2024-01-04T00:00:00Z")
+    stop: = parser.parse("2024-01-10T23:59:59Z") 
