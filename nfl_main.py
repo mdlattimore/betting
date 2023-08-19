@@ -67,8 +67,6 @@ def display_game_html(game, bet):
     return result
 
 
-    
-    
 def go():
     global games
     global wager
@@ -76,13 +74,13 @@ def go():
         wager = float(Element('bet').value)
     else:
         wager = 0
-    longest_shot = [games[0]]
-    for game in games:
-        if abs(game['team1_line'] - game['team2_line']) > abs(longest_shot[0]['team1_line'] - longest_shot[0]['team2_line']):
-            longest_shot[0] = game
-        display = display_game_html(longest_shot[0], wager)
-        outputdiv = Element('longestshot')
-        outputdiv.element.innerHTML = "<h4 class='text-center'>Longest Shot</h4>" + display
+    # longest_shot = [games[0]]
+    # for game in games:
+    #     if abs(game['team1_line'] - game['team2_line']) > abs(longest_shot[0]['team1_line'] - longest_shot[0]['team2_line']):
+    #         longest_shot[0] = game
+    #     display = display_game_html(longest_shot[0], wager)
+    #     outputdiv = Element('longestshot')
+    #     outputdiv.element.innerHTML = "<h4 class='text-center'>Longest Shot</h4>" + display
 
     biggest_spread = [games[0]]
     for game in games:
