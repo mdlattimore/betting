@@ -1,3 +1,9 @@
+# -Set 'start' and 'stop' in isoformat
+# -Change week number in file creation at bottom of code
+# -You can change 'book' at or around line 28
+# -Copy contents of file created by this script to 'nfl_games.json'
+# -Change week at top of 'nfl.html' and push repo to GitHub
+
 import json
 import requests
 from datetime import datetime as dt

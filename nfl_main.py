@@ -72,7 +72,10 @@ def display_game_html(game, bet):
 def go():
     global games
     global wager
-    wager = float(Element('bet').value)
+    if Element('bet').value:
+        wager = float(Element('bet').value)
+    else:
+        wager = 0
     longest_shot = [games[0]]
     for game in games:
         if abs(game['team1_line'] - game['team2_line']) > abs(longest_shot[0]['team1_line'] - longest_shot[0]['team2_line']):
