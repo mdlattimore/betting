@@ -12,6 +12,9 @@ from pprint import pprint
 
 url = "https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds/?apiKey=13fcfd3dd11caea8d5d9f589a6bacf29&regions=us&markets=h2h,spreads,totals&oddsFormat=american"
 
+# pre-season
+# url = "https://api.the-odds-api.com/v4/sports/americanfootball_nfl_preseason/odds/?apiKey=13fcfd3dd11caea8d5d9f589a6bacf29&regions=us&markets=h2h,spreads,totals&oddsFormat=american"
+
 response = requests.get(url)
 raw_data = response.json()
 time_stamp = dt.isoformat(dt.today())
@@ -20,6 +23,10 @@ with open(f"raw_data_{time_stamp}.json", 'w') as file:
 
 start = parser.parse("2023-09-08T00:00:00Z")
 stop = parser.parse("2023-09-13T23:59:59Z")
+
+# pre-season
+# start = parser.parse("2023-08-08T00:00:00Z")
+# stop = parser.parse("2023-09-13T23:59:59Z")
 
 intermediate_data = []
 for game in raw_data:
@@ -59,3 +66,7 @@ for game in raw_data:
 
 with open('week_1_nfl_odds.json', 'w') as file:
     json.dump(intermediate_data, file)
+
+# pre-season
+# with open('preseason_nfl_odds.json', 'w') as file:
+#     json.dump(intermediate_data, file)
