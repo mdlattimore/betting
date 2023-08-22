@@ -18,7 +18,7 @@ url = "https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds/?apiKey=
 response = requests.get(url)
 raw_data = response.json()
 time_stamp = dt.isoformat(dt.today())
-with open(f"raw_data_{time_stamp}.json", 'w') as file:
+with open(f"nfl_raw_data_{time_stamp}.json", 'w') as file:
     json.dump(raw_data, file)
 
 start = parser.parse("2023-09-08T00:00:00Z")
@@ -51,6 +51,8 @@ for game in raw_data:
             team1_spread = game['bookmakers'][book]['markets'][1]['outcomes'][1]['point']
             team2_spread = game['bookmakers'][book]['markets'][1]['outcomes'][0]['point']
         over_under = game['bookmakers'][book]['markets'][2]['outcomes'][0]['point']
+        game_time_iso = parser.parse(game['commence_time'])
+        game_time = game_time_iso.astimezone().ctime()
 
         intermediate_data.append({"team1": team1,
                                    "team2": team2,
@@ -59,6 +61,7 @@ for game in raw_data:
                                    "team1_spread": team1_spread,
                                    "team2_spread": team2_spread,
                                    "over_under": over_under,
+                                   "game_time": game_time
                                 })
 
 # with open("sample.json", "w") as outfile:

@@ -6,7 +6,8 @@
         "team2_line": -1350,
         "team1_spread": 20.5,
         "team2_spread": -20.5,
-        "over_under": 50.5
+        "over_under": 50.5,
+        "game_time": "Sat Aug 26 14:30:41 2023"
     },
     {
         "team1": "UTEP Miners",
@@ -15,7 +16,8 @@
         "team2_line": -105,
         "team1_spread": -1.0,
         "team2_spread": 1.0,
-        "over_under": 52.0
+        "over_under": 53.0,
+        "game_time": "Sat Aug 26 17:30:00 2023"
     },
     {
         "team1": "UMass Minutemen",
@@ -24,25 +26,28 @@
         "team2_line": -325,
         "team1_spread": 7.5,
         "team2_spread": -7.5,
-        "over_under": 44.5
+        "over_under": 45.0,
+        "game_time": "Sat Aug 26 19:00:00 2023"
     },
     {
         "team1": "Ohio Bobcats",
         "team2": "San Diego State Aztecs",
-        "team1_line": 130,
-        "team2_line": -155,
-        "team1_spread": 3.5,
-        "team2_spread": -3.5,
-        "over_under": 49.0
+        "team1_line": 120,
+        "team2_line": -142,
+        "team1_spread": 2.5,
+        "team2_spread": -2.5,
+        "over_under": 49.0,
+        "game_time": "Sat Aug 26 19:00:00 2023"
     },
     {
         "team1": "Hawaii Rainbow Warriors",
         "team2": "Vanderbilt Commodores",
         "team1_line": 625,
         "team2_line": -950,
-        "team1_spread": 17.0,
-        "team2_spread": -17.0,
-        "over_under": 55.5
+        "team1_spread": 17.5,
+        "team2_spread": -17.5,
+        "over_under": 55.5,
+        "game_time": "Sat Aug 26 19:30:00 2023"
     },
     {
         "team1": "San Jose State Spartans",
@@ -51,25 +56,28 @@
         "team2_line": -9000,
         "team1_spread": 30.5,
         "team2_spread": -30.5,
-        "over_under": 64.5
+        "over_under": 64.5,
+        "game_time": "Sat Aug 26 20:00:00 2023"
     },
     {
         "team1": "Florida International Panthers",
         "team2": "Louisiana Tech Bulldogs",
-        "team1_line": 295,
-        "team2_line": -375,
-        "team1_spread": 10.5,
-        "team2_spread": -10.5,
-        "over_under": 58.5
+        "team1_line": 320,
+        "team2_line": -410,
+        "team1_spread": 11.0,
+        "team2_spread": -11.0,
+        "over_under": 58.5,
+        "game_time": "Sat Aug 26 21:00:00 2023"
     },
     {
         "team1": "Kent State Golden Flashes",
         "team2": "UCF Knights",
-        "team1_line": -110,
-        "team2_line": -110,
-        "team1_spread": 58.5,
-        "team2_spread": 58.5,
-        "over_under": "N/A"
+        "team1_line": "N/A",
+        "team2_line": "N/A",
+        "team1_spread": 36.5,
+        "team2_spread": -36.5,
+        "over_under": 58.5,
+        "game_time": "Thu Aug 31 19:00:00 2023"
     },
     {
         "team1": "NC State Wolfpack",
@@ -78,34 +86,38 @@
         "team2_line": 525,
         "team1_spread": -15.0,
         "team2_spread": 15.0,
-        "over_under": 47.5
+        "over_under": 47.5,
+        "game_time": "Thu Aug 31 19:30:00 2023"
     },
     {
         "team1": "Florida Gators",
         "team2": "Utah Utes",
-        "team1_line": 235,
-        "team2_line": -290,
-        "team1_spread": 7.0,
-        "team2_spread": -7.0,
-        "over_under": 46.0
+        "team1_line": 190,
+        "team2_line": -230,
+        "team1_spread": 5.5,
+        "team2_spread": -5.5,
+        "over_under": 46.0,
+        "game_time": "Thu Aug 31 20:00:00 2023"
     },
     {
         "team1": "Nebraska Cornhuskers",
         "team2": "Minnesota Golden Gophers",
-        "team1_line": 210,
-        "team2_line": -258,
-        "team1_spread": 7.0,
-        "team2_spread": -7.0,
-        "over_under": 46.0
+        "team1_line": 230,
+        "team2_line": -285,
+        "team1_spread": 7.5,
+        "team2_spread": -7.5,
+        "over_under": 45.5,
+        "game_time": "Thu Aug 31 20:00:00 2023"
     },
     {
         "team1": "Central Michigan Chippewas",
         "team2": "Michigan State Spartans",
         "team1_line": 455,
         "team2_line": -625,
-        "team1_spread": 14.5,
-        "team2_spread": -14.5,
-        "over_under": 49.5
+        "team1_spread": 15.0,
+        "team2_spread": -15.0,
+        "over_under": 49.5,
+        "game_time": "Fri Sep  1 19:00:00 2023"
     },
     {
         "team1": "Miami (OH) RedHawks",
@@ -114,7 +126,8 @@
         "team2_line": -950,
         "team1_spread": 17.5,
         "team2_spread": -17.5,
-        "over_under": 46.5
+        "over_under": 46.0,
+        "game_time": "Fri Sep  1 19:00:00 2023"
     },
     {
         "team1": "Louisville Cardinals",
@@ -123,7 +136,8 @@
         "team2_line": 245,
         "team1_spread": -8.0,
         "team2_spread": 8.0,
-        "over_under": 51.5
+        "over_under": 49.5,
+        "game_time": "Fri Sep  1 19:30:00 2023"
     },
     {
         "team1": "Stanford Cardinal",
@@ -132,7 +146,8 @@
         "team2_line": 240,
         "team1_spread": -7.0,
         "team2_spread": 7.0,
-        "over_under": 58.5
+        "over_under": 58.5,
+        "game_time": "Fri Sep  1 23:00:00 2023"
     },
     {
         "team1": "South Carolina Gamecocks",
@@ -141,16 +156,18 @@
         "team2_line": -142,
         "team1_spread": 2.5,
         "team2_spread": -2.5,
-        "over_under": 62.5
+        "over_under": 63.5,
+        "game_time": "Sat Sep  2 10:00:41 2023"
     },
     {
         "team1": "Arkansas State Red Wolves",
         "team2": "Oklahoma Sooners",
-        "team1_line": -110,
-        "team2_line": -110,
-        "team1_spread": 61.0,
-        "team2_spread": 61.0,
-        "over_under": "N/A"
+        "team1_line": "N/A",
+        "team2_line": "N/A",
+        "team1_spread": 35.0,
+        "team2_spread": -35.0,
+        "over_under": 58.5,
+        "game_time": "Sat Sep  2 12:00:00 2023"
     },
     {
         "team1": "Ball State Cardinals",
@@ -159,7 +176,8 @@
         "team2_line": -5000,
         "team1_spread": 26.5,
         "team2_spread": -26.5,
-        "over_under": 48.5
+        "over_under": 48.5,
+        "game_time": "Sat Sep  2 12:00:00 2023"
     },
     {
         "team1": "Northern Illinois Huskies",
@@ -168,7 +186,8 @@
         "team2_line": -355,
         "team1_spread": 9.5,
         "team2_spread": -9.5,
-        "over_under": 52.0
+        "over_under": 52.0,
+        "game_time": "Sat Sep  2 12:00:00 2023"
     },
     {
         "team1": "Bowling Green Falcons",
@@ -177,7 +196,8 @@
         "team2_line": -470,
         "team1_spread": 12.5,
         "team2_spread": -12.5,
-        "over_under": 51.5
+        "over_under": 50.5,
+        "game_time": "Sat Sep  2 12:00:00 2023"
     },
     {
         "team1": "Colorado Buffaloes",
@@ -186,16 +206,18 @@
         "team2_line": -1050,
         "team1_spread": 20.5,
         "team2_spread": -20.5,
-        "over_under": 59.5
+        "over_under": 59.5,
+        "game_time": "Sat Sep  2 12:00:00 2023"
     },
     {
         "team1": "East Carolina Pirates",
         "team2": "Michigan Wolverines",
-        "team1_line": -110,
-        "team2_line": -110,
-        "team1_spread": 51.5,
-        "team2_spread": 51.5,
-        "over_under": "N/A"
+        "team1_line": "N/A",
+        "team2_line": "N/A",
+        "team1_spread": 36.0,
+        "team2_spread": -36.0,
+        "over_under": 51.5,
+        "game_time": "Sat Sep  2 12:00:00 2023"
     },
     {
         "team1": "Fresno State Bulldogs",
@@ -204,7 +226,8 @@
         "team2_line": -192,
         "team1_spread": 4.0,
         "team2_spread": -4.0,
-        "over_under": 50.5
+        "over_under": 50.5,
+        "game_time": "Sat Sep  2 12:00:00 2023"
     },
     {
         "team1": "Utah State Aggies",
@@ -213,7 +236,8 @@
         "team2_line": -2400,
         "team1_spread": 23.5,
         "team2_spread": -23.5,
-        "over_under": 43.0
+        "over_under": 43.0,
+        "game_time": "Sat Sep  2 12:00:00 2023"
     },
     {
         "team1": "Louisiana Tech Bulldogs",
@@ -222,7 +246,8 @@
         "team2_line": -850,
         "team1_spread": 18.0,
         "team2_spread": -18.0,
-        "over_under": 65.5
+        "over_under": 65.5,
+        "game_time": "Sat Sep  2 12:00:00 2023"
     },
     {
         "team1": "Virginia Cavaliers",
@@ -231,7 +256,8 @@
         "team2_line": -6500,
         "team1_spread": 28.0,
         "team2_spread": -28.0,
-        "over_under": 58.0
+        "over_under": 58.0,
+        "game_time": "Sat Sep  2 12:01:00 2023"
     },
     {
         "team1": "Akron Zips",
@@ -240,16 +266,18 @@
         "team2_line": -360,
         "team1_spread": 10.5,
         "team2_spread": -10.5,
-        "over_under": 55.0
+        "over_under": 55.0,
+        "game_time": "Sat Sep  2 14:00:00 2023"
     },
     {
         "team1": "UMass Minutemen",
         "team2": "Auburn Tigers",
-        "team1_line": -110,
-        "team2_line": -110,
-        "team1_spread": 53.5,
-        "team2_spread": 53.5,
-        "over_under": "N/A"
+        "team1_line": "N/A",
+        "team2_line": "N/A",
+        "team1_spread": 39.5,
+        "team2_spread": -39.5,
+        "over_under": 53.5,
+        "game_time": "Sat Sep  2 15:30:00 2023"
     },
     {
         "team1": "Boise State Broncos",
@@ -258,34 +286,38 @@
         "team2_line": -650,
         "team1_spread": 14.5,
         "team2_spread": -14.5,
-        "over_under": 59.0
+        "over_under": 59.0,
+        "game_time": "Sat Sep  2 15:30:00 2023"
     },
     {
         "team1": "Buffalo Bulls",
         "team2": "Wisconsin Badgers",
-        "team1_line": 1400,
-        "team2_line": -3200,
-        "team1_spread": 25.5,
-        "team2_spread": -25.5,
-        "over_under": 55.0
+        "team1_line": 1600,
+        "team2_line": -4000,
+        "team1_spread": 27.5,
+        "team2_spread": -27.5,
+        "over_under": 55.0,
+        "game_time": "Sat Sep  2 15:30:00 2023"
     },
     {
         "team1": "Rice Owls",
         "team2": "Texas Longhorns",
-        "team1_line": -110,
-        "team2_line": -110,
-        "team1_spread": 59.0,
-        "team2_spread": 59.0,
-        "over_under": "N/A"
+        "team1_line": "N/A",
+        "team2_line": "N/A",
+        "team1_spread": 35.0,
+        "team2_spread": -35.0,
+        "over_under": 59.0,
+        "game_time": "Sat Sep  2 15:30:00 2023"
     },
     {
         "team1": "South Florida Bulls",
         "team2": "Western Kentucky Hilltoppers",
-        "team1_line": 410,
-        "team2_line": -550,
-        "team1_spread": 13.5,
-        "team2_spread": -13.5,
-        "over_under": 71.0
+        "team1_line": 380,
+        "team2_line": -500,
+        "team1_spread": 11.5,
+        "team2_spread": -11.5,
+        "over_under": 71.0,
+        "game_time": "Sat Sep  2 15:30:00 2023"
     },
     {
         "team1": "Ohio State Buckeyes",
@@ -294,25 +326,28 @@
         "team2_line": 2000,
         "team1_spread": -28.5,
         "team2_spread": 28.5,
-        "over_under": 60.0
+        "over_under": 60.0,
+        "game_time": "Sat Sep  2 15:31:00 2023"
     },
     {
         "team1": "California Golden Bears",
         "team2": "North Texas Mean Green",
-        "team1_line": -325,
-        "team2_line": 260,
-        "team1_spread": -7.5,
-        "team2_spread": 7.5,
-        "over_under": 58.0
+        "team1_line": -310,
+        "team2_line": 250,
+        "team1_spread": -7.0,
+        "team2_spread": 7.0,
+        "over_under": 55.5,
+        "game_time": "Sat Sep  2 16:00:00 2023"
     },
     {
         "team1": "Nevada Wolf Pack",
         "team2": "USC Trojans",
-        "team1_line": -110,
-        "team2_line": -110,
-        "team1_spread": 63.5,
-        "team2_spread": 63.5,
-        "over_under": "N/A"
+        "team1_line": "N/A",
+        "team2_line": "N/A",
+        "team1_spread": 38.0,
+        "team2_spread": -38.0,
+        "over_under": 63.5,
+        "game_time": "Sat Sep  2 18:30:00 2023"
     },
     {
         "team1": "Army Black Knights",
@@ -321,7 +356,8 @@
         "team2_line": 260,
         "team1_spread": -8.0,
         "team2_spread": 8.0,
-        "over_under": 48.5
+        "over_under": 48.5,
+        "game_time": "Sat Sep  2 19:00:00 2023"
     },
     {
         "team1": "Washington State Cougars",
@@ -330,7 +366,8 @@
         "team2_line": 400,
         "team1_spread": -12.0,
         "team2_spread": 12.0,
-        "over_under": 58.0
+        "over_under": 56.0,
+        "game_time": "Sat Sep  2 19:00:00 2023"
     },
     {
         "team1": "UTSA Roadrunners",
@@ -339,7 +376,8 @@
         "team2_line": -110,
         "team1_spread": 0.0,
         "team2_spread": 0.0,
-        "over_under": 61.0
+        "over_under": 61.0,
+        "game_time": "Sat Sep  2 19:00:00 2023"
     },
     {
         "team1": "Texas State Bobcats",
@@ -348,25 +386,28 @@
         "team2_line": -4000,
         "team1_spread": 26.0,
         "team2_spread": -26.0,
-        "over_under": 58.5
+        "over_under": 59.0,
+        "game_time": "Sat Sep  2 19:01:00 2023"
     },
     {
         "team1": "New Mexico Lobos",
         "team2": "Texas A&M Aggies",
-        "team1_line": -110,
-        "team2_line": -110,
-        "team1_spread": 49.0,
-        "team2_spread": 49.0,
-        "over_under": "N/A"
+        "team1_line": "N/A",
+        "team2_line": "N/A",
+        "team1_spread": 38.0,
+        "team2_spread": -38.0,
+        "over_under": 49.0,
+        "game_time": "Sat Sep  2 19:01:00 2023"
     },
     {
         "team1": "Toledo Rockets",
         "team2": "Illinois Fighting Illini",
-        "team1_line": 295,
-        "team2_line": -375,
+        "team1_line": 280,
+        "team2_line": -355,
         "team1_spread": 9.0,
         "team2_spread": -9.0,
-        "over_under": 49.5
+        "over_under": 49.5,
+        "game_time": "Sat Sep  2 19:30:00 2023"
     },
     {
         "team1": "West Virginia Mountaineers",
@@ -375,7 +416,8 @@
         "team2_line": -1650,
         "team1_spread": 20.5,
         "team2_spread": -20.5,
-        "over_under": 53.5
+        "over_under": 52.0,
+        "game_time": "Sat Sep  2 19:30:00 2023"
     },
     {
         "team1": "Texas Tech Red Raiders",
@@ -384,25 +426,28 @@
         "team2_line": 440,
         "team1_spread": -14.0,
         "team2_spread": 14.0,
-        "over_under": 53.0
+        "over_under": 52.0,
+        "game_time": "Sat Sep  2 19:30:00 2023"
     },
     {
         "team1": "Middle Tennessee Blue Raiders",
         "team2": "Alabama Crimson Tide",
-        "team1_line": -110,
-        "team2_line": -110,
-        "team1_spread": 54.5,
-        "team2_spread": 54.5,
-        "over_under": "N/A"
+        "team1_line": "N/A",
+        "team2_line": "N/A",
+        "team1_spread": 39.5,
+        "team2_spread": -39.5,
+        "over_under": 54.5,
+        "game_time": "Sat Sep  2 19:31:00 2023"
     },
     {
         "team1": "Old Dominion Monarchs",
         "team2": "Virginia Tech Hokies",
-        "team1_line": 425,
-        "team2_line": -575,
-        "team1_spread": 14.0,
-        "team2_spread": -14.0,
-        "over_under": 49.5
+        "team1_line": 490,
+        "team2_line": -675,
+        "team1_spread": 15.5,
+        "team2_spread": -15.5,
+        "over_under": 49.5,
+        "game_time": "Sat Sep  2 20:00:00 2023"
     },
     {
         "team1": "South Alabama Jaguars",
@@ -411,7 +456,8 @@
         "team2_line": -278,
         "team1_spread": 7.0,
         "team2_spread": -7.0,
-        "over_under": 55.0
+        "over_under": 55.0,
+        "game_time": "Sat Sep  2 20:00:00 2023"
     },
     {
         "team1": "Sam Houston State Bearkats",
@@ -420,16 +466,18 @@
         "team2_line": -2400,
         "team1_spread": 22.5,
         "team2_spread": -22.5,
-        "over_under": 50.5
+        "over_under": 50.0,
+        "game_time": "Sat Sep  2 22:15:00 2023"
     },
     {
         "team1": "Coastal Carolina Chanticleers",
         "team2": "UCLA Bruins",
-        "team1_line": 525,
-        "team2_line": -750,
-        "team1_spread": 16.5,
-        "team2_spread": -16.5,
-        "over_under": 64.5
+        "team1_line": 500,
+        "team2_line": -700,
+        "team1_spread": 15.0,
+        "team2_spread": -15.0,
+        "over_under": 64.5,
+        "game_time": "Sat Sep  2 22:30:00 2023"
     },
     {
         "team1": "LSU Tigers",
@@ -438,16 +486,18 @@
         "team2_line": 120,
         "team1_spread": -2.5,
         "team2_spread": 2.5,
-        "over_under": 56.0
+        "over_under": 57.0,
+        "game_time": "Sun Sep  3 10:00:41 2023"
     },
     {
         "team1": "Northwestern Wildcats",
         "team2": "Rutgers Scarlet Knights",
-        "team1_line": 220,
-        "team2_line": -270,
+        "team1_line": 203,
+        "team2_line": -245,
         "team1_spread": 7.0,
         "team2_spread": -7.0,
-        "over_under": 40.5
+        "over_under": 40.5,
+        "game_time": "Sun Sep  3 12:00:00 2023"
     },
     {
         "team1": "Oregon State Beavers",
@@ -456,7 +506,8 @@
         "team2_line": 600,
         "team1_spread": -16.5,
         "team2_spread": 16.5,
-        "over_under": 54.5
+        "over_under": 54.5,
+        "game_time": "Sun Sep  3 15:30:00 2023"
     },
     {
         "team1": "Clemson Tigers",
@@ -465,6 +516,7 @@
         "team2_line": 370,
         "team1_spread": -12.5,
         "team2_spread": 12.5,
-        "over_under": 55.0
+        "over_under": 56.0,
+        "game_time": "Mon Sep  4 20:00:00 2023"
     }
 ]

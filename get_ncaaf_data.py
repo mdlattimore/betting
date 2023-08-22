@@ -15,7 +15,7 @@ url = "https://api.the-odds-api.com/v4/sports/americanfootball_ncaaf/odds/?apiKe
 response = requests.get(url)
 raw_data = response.json()
 time_stamp = dt.isoformat(dt.today())
-with open(f"raw_data_{time_stamp}.json", 'w') as file:
+with open(f"ncaaf_raw_data_{time_stamp}.json", 'w') as file:
     json.dump(raw_data, file)
 
 start = parser.parse("2023-08-26T00:00:00Z")
@@ -30,23 +30,47 @@ for game in raw_data:
             if value['key'] == "draftkings":
                 book = idx
 
-        if team1 == game['bookmakers'][book]['markets'][0]['outcomes'][0]['name']:
-            team1_line = game['bookmakers'][book]['markets'][0]['outcomes'][0]['price']
-            team2_line = game['bookmakers'][book]['markets'][0]['outcomes'][1]['price']
-        else:
-            team1_line = game['bookmakers'][book]['markets'][0]['outcomes'][1]['price']
-            team2_line = game['bookmakers'][book]['markets'][0]['outcomes'][0]['price']
+        if game['bookmakers'][book]['markets'][0]['key'] == "h2h" and \
+            game['bookmakers'][book]['markets'][1]['key'] == "spreads":
 
-        if team1 == game['bookmakers'][book]['markets'][0]['outcomes'][0]['name']:
-            team1_spread = game['bookmakers'][book]['markets'][1]['outcomes'][0]['point']
-            team2_spread = game['bookmakers'][book]['markets'][1]['outcomes'][1]['point']
-        else:
-            team1_spread = game['bookmakers'][book]['markets'][1]['outcomes'][1]['point']
-            team2_spread = game['bookmakers'][book]['markets'][1]['outcomes'][0]['point']
-        try:
-            over_under = game['bookmakers'][book]['markets'][2]['outcomes'][0]['point']
-        except IndexError:
-            over_under = "N/A"
+            if team1 == game['bookmakers'][book]['markets'][0]['outcomes'][0]['name']:
+                team1_line = game['bookmakers'][book]['markets'][0]['outcomes'][0]['price']
+                team2_line = game['bookmakers'][book]['markets'][0]['outcomes'][1]['price']
+            else:
+                team1_line = game['bookmakers'][book]['markets'][0]['outcomes'][1]['price']
+                team2_line = game['bookmakers'][book]['markets'][0]['outcomes'][0]['price']
+
+            if team1 == game['bookmakers'][book]['markets'][0]['outcomes'][0]['name']:
+                team1_spread = game['bookmakers'][book]['markets'][1]['outcomes'][0]['point']
+                team2_spread = game['bookmakers'][book]['markets'][1]['outcomes'][1]['point']
+            else:
+                team1_spread = game['bookmakers'][book]['markets'][1]['outcomes'][1]['point']
+                team2_spread = game['bookmakers'][book]['markets'][1]['outcomes'][0]['point']
+            try:
+                over_under = game['bookmakers'][book]['markets'][2]['outcomes'][0]['point']
+            except IndexError:
+                over_under = "N/A"
+
+        elif game['bookmakers'][book]['markets'][0]['key'] == "spreads" and \
+            game['bookmakers'][book]['markets'][1]['key'] == "totals":
+
+            team1_line = "N/A"
+            team2_line = "N/A"
+
+            if team1 == game['bookmakers'][book]['markets'][0]['outcomes'][0]['name']:
+                team1_spread = game['bookmakers'][book]['markets'][0]['outcomes'][0]['point']
+                team2_spread = game['bookmakers'][book]['markets'][0]['outcomes'][1]['point']
+            else:
+                team1_spread = game['bookmakers'][book]['markets'][0]['outcomes'][1]['point']
+                team2_spread = game['bookmakers'][book]['markets'][0]['outcomes'][0]['point']
+            try:
+                over_under = game['bookmakers'][book]['markets'][1]['outcomes'][0]['point']
+            except IndexError:
+                over_under = "N/A"
+
+
+        game_time_iso = parser.parse(game['commence_time'])
+        game_time = game_time_iso.astimezone().ctime()
 
         intermediate_data.append({"team1": team1,
                                    "team2": team2,
@@ -55,6 +79,7 @@ for game in raw_data:
                                    "team1_spread": team1_spread,
                                    "team2_spread": team2_spread,
                                    "over_under": over_under,
+                                   "game_time": game_time
                                 })
 
 # with open("sample.json", "w") as outfile:

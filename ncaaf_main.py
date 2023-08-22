@@ -24,25 +24,6 @@ def favorite(line, bet=wager):
 def spread(bet):
     return f"{bet + (abs(bet / (VIG/100))):.2f}"
 
-def display_game(game, bet):
-    result = ""
-    result += f"{game['team1']} v. {game['team2']}\n"
-    result += f"Bet = ${wager:.2f}\n"
-    result += f"Over/Under: {game['over_under']}\n"
-    if game['team1_spread'] < 0:
-        result += f"Spread: {game['team1']}  {game['team1_spread']} points.\n"
-    else:
-        result += f"Spread: {game['team2']}  {game['team2_spread']} points.\n"
-    result += "Money Line:\n"
-    if game['team1_line'] > 0:
-        result += f"\t{game['team1']}: {game['team1_line']} -> ${underdog(game['team1_line'], bet)}\n"
-        result += f"\t{game['team2']}: {game['team2_line']} -> ${favorite(game['team2_line'], bet)}\n"
-    else:
-        result += f"\t{game['team1']}: {game['team1_line']} -> ${favorite(game['team1_line'], bet)}\n"
-        result += f"\t{game['team2']}: {game['team2_line']} -> ${underdog(game['team2_line'], bet)}\n" 
-    result += f"Spread, Over/Under Payout -> ${spread(bet)}\n\n"
-    return result
-
 
 def display_game_html(game, bet):
     result = "<pre style='font-size: 1rem; font-family: Arial, Helvetica, sans-serif;'><br>"
@@ -50,6 +31,7 @@ def display_game_html(game, bet):
         result += f"<b>{game['team1']}</b> v. {game['team2']}<br>"
     else:
         result += f"{game['team1']} v. <b>{game['team2']}</b><br>"
+    result += f"{game['game_time']}<br>"
     result += f"Bet = ${wager:.2f}<br>"
     result += f"Over/Under: {game['over_under']}<br>"
     if game['team1_spread'] < 0:
@@ -57,12 +39,23 @@ def display_game_html(game, bet):
     else:
         result += f"Spread: <b>{game['team2']}</b> {game['team2_spread']} points.<br>"
     result += "Money Line:<br>"
-    if game['team1_line'] > 0:
-        result += f"\t{game['team1']}: {game['team1_line']} -> ${underdog(game['team1_line'], bet)}<br>"
-        result += f"\t{game['team2']}: {game['team2_line']} -> ${favorite(game['team2_line'], bet)}<br>"
-    else:
-        result += f"\t{game['team1']}: {game['team1_line']} -> ${favorite(game['team1_line'], bet)}<br>"
-        result += f"\t{game['team2']}: {game['team2_line']} -> ${underdog(game['team2_line'], bet)}<br>" 
+    try:
+        # Equalize payout if both teams have negative line
+        if game['team1_line'] < 0 and game['team2_line'] < 0:
+            result += f"\t{game['team1']}: {game['team1_line']} -> ${favorite(game['team1_line'], bet)}<br>"
+            result += f"\t{game['team2']}: {game['team2_line']} -> ${favorite(game['team2_line'], bet)}<br>"
+        
+        else:    
+            if game['team1_line'] > 0:
+                result += f"\t{game['team1']}: {game['team1_line']} -> ${underdog(game['team1_line'], bet)}<br>"
+                result += f"\t{game['team2']}: {game['team2_line']} -> ${favorite(game['team2_line'], bet)}<br>"
+            else:
+                result += f"\t{game['team1']}: {game['team1_line']} -> ${favorite(game['team1_line'], bet)}<br>"
+                result += f"\t{game['team2']}: {game['team2_line']} -> ${underdog(game['team2_line'], bet)}<br>" 
+    except TypeError:
+        result += f"\t{game['team1']}: N/A\n"
+        result += f"\t{game['team2']}: N/A\n"
+
     result += f"Spread, Over/Under Payout -> ${spread(bet)}<br><br>"
     result += "</pre>"
     return result
@@ -77,13 +70,6 @@ def go():
         wager = float(Element('bet').value)
     else:
         wager = 0
-    # longest_shot = [games[0]]
-    # for game in games:
-    #     if abs(game['team1_line'] - game['team2_line']) > abs(longest_shot[0]['team1_line'] - longest_shot[0]['team2_line']):
-    #         longest_shot[0] = game
-    #     display = display_game_html(longest_shot[0], wager)
-    #     outputdiv = Element('longestshot')
-    #     outputdiv.element.innerHTML = "<h4 class='text-center'>Longest Shot</h4>" + display
 
     biggest_spread = [games[0]]
     for game in games:
@@ -103,16 +89,21 @@ def go():
 
     all_odds1 = ""
     all_odds2 = ""
-    line = len(games) // 2
-    for game in games[:line]:
+
+
+    # Lays out display horizontally then vertically so ...
+    # Game 1    Game 2
+    # Game 3    Game 4
+    # etc...
+    for game in games[0::2]:
         all_odds1 += display_game_html(game, wager)
+    for game in games[1::2]:
+        all_odds2 += display_game_html(game, wager)
+
     outputdiv = Element('all_odds1')
     outputdiv.element.innerHTML = all_odds1       
-    for game in games[line:]:
-        all_odds2 += display_game_html(game, wager)
     outputdiv2 = Element('all_odds2')
     outputdiv2.element.innerHTML = all_odds2   
-
     outputdiv3 = Element('all_odds_header')
     outputdiv3.element.innerHTML = "<h4 class='text-center'>All Odds</h4>"   
 
