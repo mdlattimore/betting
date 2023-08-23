@@ -23,25 +23,6 @@ def favorite(line, bet=wager):
 def spread(bet):
     return f"{bet + (abs(bet / (VIG/100))):.2f}"
 
-def display_game(game, bet):
-    result = ""
-    result += f"{game['team1']} v. {game['team2']}\n"
-    result += f"Bet = ${wager:.2f}\n"
-    result += f"Over/Under: {game['over_under']}\n"
-    if game['team1_spread'] < 0:
-        result += f"Spread: {game['team1']}  {game['team1_spread']} points.\n"
-    else:
-        result += f"Spread: {game['team2']}  {game['team2_spread']} points.\n"
-    result += "Money Line:\n"
-    if game['team1_line'] > 0:
-        result += f"\t{game['team1']}: {game['team1_line']} -> ${underdog(game['team1_line'], bet)}\n"
-        result += f"\t{game['team2']}: {game['team2_line']} -> ${favorite(game['team2_line'], bet)}\n"
-    else:
-        result += f"\t{game['team1']}: {game['team1_line']} -> ${favorite(game['team1_line'], bet)}\n"
-        result += f"\t{game['team2']}: {game['team2_line']} -> ${underdog(game['team2_line'], bet)}\n" 
-    result += f"Spread, Over/Under Payout -> ${spread(bet)}\n\n"
-    return result
-
 
 def display_game_html(game, bet):
     result = "<pre style='font-size: 1rem; font-family: Arial, Helvetica, sans-serif;'><br>"
