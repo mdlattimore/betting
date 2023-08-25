@@ -4,7 +4,7 @@ import json
 print()
 week = input("What week? ")
 
-with open(f'week_{week}_games.json', 'r') as openfile:
+with open(f'week_{week}_nfl_odds.json', 'r') as openfile:
  
     # Reading from json file
     games = json.load(openfile)
@@ -94,5 +94,5 @@ Game Odds:
 {results}
 """
 
-with open(f"week_{week}_lines.txt", mode='w') as file:
-    file.write(consolidated)
+# with open(f"week_{week}_lines.txt", mode='w') as file:
+#     file.write(consolidated)
