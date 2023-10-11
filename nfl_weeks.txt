@@ -15,7 +15,7 @@ Week 5
     stop = parser.parse("2023-10-11T23:59:59Z")
 Week 6
     start = parser.parse("2023-10-12T00:00:00Z")
-    stop: = parser.parse("2023-10-18T23:59:59Z")
+    stop = parser.parse("2023-10-18T23:59:59Z")
 Week 7
     start = parser.parse("2023-10-19T00:00:00Z")
     stop: = parser.parse("2023-10-25T23:59:59Z")     
