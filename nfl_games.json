@@ -1,132 +1,162 @@
 [
     {
-        "team1": "Jacksonville Jaguars",
-        "team2": "New Orleans Saints",
-        "team1_line": 105,
-        "team2_line": -125,
-        "team1_spread": 2.0,
-        "team2_spread": -2.0,
-        "over_under": 40.0,
-        "game_time": "Thu Oct 19 20:16:00 2023"
-    },
-    {
-        "team1": "Detroit Lions",
-        "team2": "Baltimore Ravens",
-        "team1_line": 130,
-        "team2_line": -155,
-        "team1_spread": 3.0,
-        "team2_spread": -3.0,
-        "over_under": 43.0,
-        "game_time": "Sun Oct 22 13:00:00 2023"
-    },
-    {
-        "team1": "Buffalo Bills",
-        "team2": "New England Patriots",
-        "team1_line": -425,
-        "team2_line": 330,
-        "team1_spread": -9.0,
-        "team2_spread": 9.0,
-        "over_under": 41.0,
-        "game_time": "Sun Oct 22 13:00:00 2023"
-    },
-    {
-        "team1": "Washington Commanders",
-        "team2": "New York Giants",
-        "team1_line": -148,
-        "team2_line": 124,
-        "team1_spread": -2.5,
-        "team2_spread": 2.5,
-        "over_under": 39.0,
-        "game_time": "Sun Oct 22 13:00:00 2023"
+        "team1": "Tampa Bay Buccaneers",
+        "team2": "Buffalo Bills",
+        "team1_line": 340,
+        "team2_line": -440,
+        "team1_spread": 9.0,
+        "team2_spread": -9.0,
+        "over_under": 43.5,
+        "game_time": "Thu Oct 26 20:15:00 2023"
     },
     {
         "team1": "Atlanta Falcons",
-        "team2": "Tampa Bay Buccaneers",
-        "team1_line": 120,
-        "team2_line": -142,
-        "team1_spread": 2.5,
-        "team2_spread": -2.5,
-        "over_under": 37.0,
-        "game_time": "Sun Oct 22 13:01:00 2023"
-    },
-    {
-        "team1": "Las Vegas Raiders",
-        "team2": "Chicago Bears",
-        "team1_line": -162,
-        "team2_line": 136,
-        "team1_spread": -3.0,
-        "team2_spread": 3.0,
-        "over_under": 37.5,
-        "game_time": "Sun Oct 22 13:01:00 2023"
-    },
-    {
-        "team1": "Cleveland Browns",
-        "team2": "Indianapolis Colts",
+        "team2": "Tennessee Titans",
         "team1_line": -142,
         "team2_line": 120,
         "team1_spread": -2.5,
         "team2_spread": 2.5,
-        "over_under": 40.0,
-        "game_time": "Sun Oct 22 13:01:00 2023"
+        "over_under": 35.5,
+        "game_time": "Sun Oct 29 13:00:00 2023"
     },
     {
-        "team1": "Arizona Cardinals",
-        "team2": "Seattle Seahawks",
-        "team1_line": 275,
-        "team2_line": -345,
-        "team1_spread": 7.5,
-        "team2_spread": -7.5,
-        "over_under": 44.5,
-        "game_time": "Sun Oct 22 16:06:00 2023"
-    },
-    {
-        "team1": "Pittsburgh Steelers",
-        "team2": "Los Angeles Rams",
-        "team1_line": 140,
-        "team2_line": -166,
-        "team1_spread": 3.0,
-        "team2_spread": -3.0,
+        "team1": "Houston Texans",
+        "team2": "Carolina Panthers",
+        "team1_line": -162,
+        "team2_line": 136,
+        "team1_spread": -3.0,
+        "team2_spread": 3.0,
         "over_under": 43.5,
-        "game_time": "Sun Oct 22 16:06:00 2023"
+        "game_time": "Sun Oct 29 13:00:00 2023"
     },
     {
-        "team1": "Green Bay Packers",
-        "team2": "Denver Broncos",
-        "team1_line": -115,
-        "team2_line": -105,
+        "team1": "New Orleans Saints",
+        "team2": "Indianapolis Colts",
+        "team1_line": -112,
+        "team2_line": -108,
         "team1_spread": -1.0,
         "team2_spread": 1.0,
-        "over_under": 45.0,
-        "game_time": "Sun Oct 22 16:25:00 2023"
+        "over_under": 43.5,
+        "game_time": "Sun Oct 29 13:00:00 2023"
     },
     {
-        "team1": "Los Angeles Chargers",
-        "team2": "Kansas City Chiefs",
-        "team1_line": 205,
-        "team2_line": -250,
-        "team1_spread": 5.5,
-        "team2_spread": -5.5,
-        "over_under": 48.0,
-        "game_time": "Sun Oct 22 16:25:00 2023"
+        "team1": "New England Patriots",
+        "team2": "Miami Dolphins",
+        "team1_line": 350,
+        "team2_line": -455,
+        "team1_spread": 9.5,
+        "team2_spread": -9.5,
+        "over_under": 46.5,
+        "game_time": "Sun Oct 29 13:00:00 2023"
     },
     {
-        "team1": "Miami Dolphins",
-        "team2": "Philadelphia Eagles",
-        "team1_line": 114,
-        "team2_line": -135,
-        "team1_spread": 2.5,
-        "team2_spread": -2.5,
-        "over_under": 52.0,
-        "game_time": "Sun Oct 22 20:21:00 2023"
+        "team1": "New York Jets",
+        "team2": "New York Giants",
+        "team1_line": -148,
+        "team2_line": 124,
+        "team1_spread": -3.0,
+        "team2_spread": 3.0,
+        "over_under": 36.5,
+        "game_time": "Sun Oct 29 13:00:00 2023"
     },
     {
-        "team1": "San Francisco 49ers",
-        "team2": "Minnesota Vikings",
-        "team1_line": -290,
-        "team2_line": 235,
+        "team1": "Philadelphia Eagles",
+        "team2": "Washington Commanders",
+        "team1_line": -278,
+        "team2_line": 225,
         "team1_spread": -6.5,
         "team2_spread": 6.5,
+        "over_under": 43.5,
+        "game_time": "Sun Oct 29 13:00:00 2023"
+    },
+    {
+        "team1": "Los Angeles Rams",
+        "team2": "Dallas Cowboys",
+        "team1_line": 210,
+        "team2_line": -258,
+        "team1_spread": 6.0,
+        "team2_spread": -6.0,
+        "over_under": 45.5,
+        "game_time": "Sun Oct 29 13:01:00 2023"
+    },
+    {
+        "team1": "Minnesota Vikings",
+        "team2": "Green Bay Packers",
+        "team1_line": -110,
+        "team2_line": -110,
+        "team1_spread": -1.0,
+        "team2_spread": 1.0,
+        "over_under": 42.0,
+        "game_time": "Sun Oct 29 13:01:00 2023"
+    },
+    {
+        "team1": "Jacksonville Jaguars",
+        "team2": "Pittsburgh Steelers",
+        "team1_line": -142,
+        "team2_line": 120,
+        "team1_spread": -2.5,
+        "team2_spread": 2.5,
+        "over_under": 41.0,
+        "game_time": "Sun Oct 29 13:01:00 2023"
+    },
+    {
+        "team1": "Cleveland Browns",
+        "team2": "Seattle Seahawks",
+        "team1_line": 164,
+        "team2_line": -198,
+        "team1_spread": 4.0,
+        "team2_spread": -4.0,
+        "over_under": 38.0,
+        "game_time": "Sun Oct 29 16:06:00 2023"
+    },
+    {
+        "team1": "Baltimore Ravens",
+        "team2": "Arizona Cardinals",
+        "team1_line": -455,
+        "team2_line": 350,
+        "team1_spread": -9.5,
+        "team2_spread": 9.5,
         "over_under": 44.0,
-        "game_time": "Mon Oct 23 20:15:00 2023"
+        "game_time": "Sun Oct 29 16:26:00 2023"
+    },
+    {
+        "team1": "Cincinnati Bengals",
+        "team2": "San Francisco 49ers",
+        "team1_line": 145,
+        "team2_line": -175,
+        "team1_spread": 3.5,
+        "team2_spread": -3.5,
+        "over_under": 43.5,
+        "game_time": "Sun Oct 29 16:26:00 2023"
+    },
+    {
+        "team1": "Kansas City Chiefs",
+        "team2": "Denver Broncos",
+        "team1_line": -310,
+        "team2_line": 250,
+        "team1_spread": -7.0,
+        "team2_spread": 7.0,
+        "over_under": 46.0,
+        "game_time": "Sun Oct 29 16:26:00 2023"
+    },
+    {
+        "team1": "Chicago Bears",
+        "team2": "Los Angeles Chargers",
+        "team1_line": 310,
+        "team2_line": -395,
+        "team1_spread": 8.5,
+        "team2_spread": -8.5,
+        "over_under": 46.5,
+        "game_time": "Sun Oct 29 20:21:00 2023"
+    },
+    {
+        "team1": "Las Vegas Raiders",
+        "team2": "Detroit Lions",
+        "team1_line": 310,
+        "team2_line": -395,
+        "team1_spread": 8.0,
+        "team2_spread": -8.0,
+        "over_under": 46.5,
+        "game_time": "Mon Oct 30 20:15:00 2023"
     }
 ]
