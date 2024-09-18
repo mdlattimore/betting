@@ -1,6 +1,6 @@
 # -Set 'start' and 'stop' in isoformat
 # -Change week number in file creation at bottom of code
-# -You can change 'book' at or around line 28
+# -You can change 'book' at or around line 37
 # -Copy contents of file created by this script to 'nfl_games.json'
 # -Change week at top of 'nfl.html' and push repo to GitHub
 
@@ -21,8 +21,8 @@ time_stamp = dt.isoformat(dt.today())
 with open(f"nfl_raw_data_{time_stamp}.json", 'w') as file:
     json.dump(raw_data, file)
 
-start = parser.parse("2024-09-12T00:00:00Z")
-stop = parser.parse("2024-09-18T23:59:59Z") 
+start = parser.parse("2024-09-19T00:00:00Z")
+stop = parser.parse("2024-09-25T23:59:59Z") 
 
 # pre-season
 # start = parser.parse("2023-08-08T00:00:00Z")
@@ -67,7 +67,7 @@ for game in raw_data:
 # with open("sample.json", "w") as outfile:
 #     json.dump(dictionary, outfile)
 
-with open('week_02_nfl_odds.json', 'w') as file:
+with open('week_03_nfl_odds.json', 'w') as file:
     json.dump(intermediate_data, file)
 
 # pre-season
