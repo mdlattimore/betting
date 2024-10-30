@@ -21,8 +21,8 @@ time_stamp = dt.isoformat(dt.today())
 with open(f"nfl_raw_data_{time_stamp}.json", 'w') as file:
     json.dump(raw_data, file)
 
-start = parser.parse("2024-10-24T00:00:00Z")
-stop = parser.parse("2024-10-30T23:59:59Z")
+start = parser.parse("2024-10-31T00:00:00Z")
+stop = parser.parse("2024-11-06T23:59:59Z")
 
 # pre-season
 # start = parser.parse("2023-08-08T00:00:00Z")
@@ -67,7 +67,7 @@ for game in raw_data:
 # with open("sample.json", "w") as outfile:
 #     json.dump(dictionary, outfile)
 
-with open('week_08_nfl_odds.json', 'w') as file:
+with open('week_09_nfl_odds.json', 'w') as file:
     json.dump(intermediate_data, file)
 
 # pre-season
