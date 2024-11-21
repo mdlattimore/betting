@@ -33,7 +33,7 @@ Week 11
     stop = parser.parse("2024-11-20T23:59:59Z")
 Week 12
     start = parser.parse("2024-11-21T00:00:00Z")
-    stop = parser.parse("2023-11-27T23:59:59Z")
+    stop = parser.parse("2024-11-27T23:59:59Z")
 Week 13
     start = parser.parse("2024-11-28T00:00:00Z")
     stop = parser.parse("2024-12-04T23:59:59Z")     
