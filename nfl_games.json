@@ -1,162 +1,182 @@
 [
     {
-        "team1": "Los Angeles Rams",
-        "team2": "San Francisco 49ers",
-        "team1_line": 120,
-        "team2_line": -142,
-        "team1_spread": 2.5,
-        "team2_spread": -2.5,
-        "over_under": 49.0,
-        "game_time": "Thu Dec 12 20:15:00 2024"
-    },
-    {
-        "team1": "Baltimore Ravens",
-        "team2": "New York Giants",
-        "team1_line": -1100,
-        "team2_line": 700,
-        "team1_spread": -16.0,
-        "team2_spread": 16.0,
-        "over_under": 42.5,
-        "game_time": "Sun Dec 15 13:00:00 2024"
-    },
-    {
-        "team1": "Dallas Cowboys",
-        "team2": "Carolina Panthers",
-        "team1_line": 124,
-        "team2_line": -148,
-        "team1_spread": 3.0,
-        "team2_spread": -3.0,
-        "over_under": 43.0,
-        "game_time": "Sun Dec 15 13:00:00 2024"
-    },
-    {
-        "team1": "Cincinnati Bengals",
-        "team2": "Tennessee Titans",
-        "team1_line": -205,
-        "team2_line": 170,
-        "team1_spread": -5.0,
-        "team2_spread": 5.0,
-        "over_under": 46.5,
-        "game_time": "Sun Dec 15 13:00:00 2024"
-    },
-    {
-        "team1": "Kansas City Chiefs",
-        "team2": "Cleveland Browns",
-        "team1_line": -198,
-        "team2_line": 164,
-        "team1_spread": -4.0,
-        "team2_spread": 4.0,
-        "over_under": 44.0,
-        "game_time": "Sun Dec 15 13:00:00 2024"
-    },
-    {
-        "team1": "Miami Dolphins",
-        "team2": "Houston Texans",
-        "team1_line": 124,
-        "team2_line": -148,
-        "team1_spread": 3.0,
-        "team2_spread": -3.0,
-        "over_under": 47.0,
-        "game_time": "Sun Dec 15 13:00:00 2024"
-    },
-    {
-        "team1": "New York Jets",
-        "team2": "Jacksonville Jaguars",
-        "team1_line": -166,
-        "team2_line": 140,
-        "team1_spread": -3.0,
-        "team2_spread": 3.0,
-        "over_under": 40.5,
-        "game_time": "Sun Dec 15 13:00:00 2024"
-    },
-    {
-        "team1": "Washington Commanders",
-        "team2": "New Orleans Saints",
-        "team1_line": -325,
-        "team2_line": 260,
-        "team1_spread": -7.5,
-        "team2_spread": 7.5,
-        "over_under": 43.5,
-        "game_time": "Sun Dec 15 13:00:00 2024"
-    },
-    {
-        "team1": "New England Patriots",
-        "team2": "Arizona Cardinals",
-        "team1_line": 195,
-        "team2_line": -238,
-        "team1_spread": 6.0,
-        "team2_spread": -6.0,
-        "over_under": 46.0,
-        "game_time": "Sun Dec 15 16:25:00 2024"
-    },
-    {
-        "team1": "Buffalo Bills",
-        "team2": "Detroit Lions",
-        "team1_line": 120,
-        "team2_line": -142,
-        "team1_spread": 2.5,
-        "team2_spread": -2.5,
-        "over_under": 54.5,
-        "game_time": "Sun Dec 15 16:25:00 2024"
-    },
-    {
-        "team1": "Indianapolis Colts",
-        "team2": "Denver Broncos",
-        "team1_line": 150,
-        "team2_line": -180,
-        "team1_spread": 4.0,
-        "team2_spread": -4.0,
-        "over_under": 44.0,
-        "game_time": "Sun Dec 15 16:25:00 2024"
-    },
-    {
-        "team1": "Tampa Bay Buccaneers",
+        "team1": "Denver Broncos",
         "team2": "Los Angeles Chargers",
         "team1_line": 120,
         "team2_line": -142,
         "team1_spread": 2.5,
         "team2_spread": -2.5,
-        "over_under": 45.0,
-        "game_time": "Sun Dec 15 16:25:00 2024"
+        "over_under": 41.0,
+        "game_time": "Thu Dec 19 20:16:00 2024"
+    },
+    {
+        "team1": "Houston Texans",
+        "team2": "Kansas City Chiefs",
+        "team1_line": 150,
+        "team2_line": -180,
+        "team1_spread": 3.5,
+        "team2_spread": -3.5,
+        "over_under": 42.0,
+        "game_time": "Sat Dec 21 13:01:00 2024"
     },
     {
         "team1": "Pittsburgh Steelers",
-        "team2": "Philadelphia Eagles",
-        "team1_line": 205,
-        "team2_line": -250,
-        "team1_spread": 5.5,
-        "team2_spread": -5.5,
-        "over_under": 42.5,
-        "game_time": "Sun Dec 15 16:25:00 2024"
-    },
-    {
-        "team1": "Green Bay Packers",
-        "team2": "Seattle Seahawks",
-        "team1_line": -148,
-        "team2_line": 124,
-        "team1_spread": -3.0,
-        "team2_spread": 3.0,
-        "over_under": 45.5,
-        "game_time": "Sun Dec 15 20:20:00 2024"
-    },
-    {
-        "team1": "Chicago Bears",
-        "team2": "Minnesota Vikings",
+        "team2": "Baltimore Ravens",
         "team1_line": 235,
         "team2_line": -290,
         "team1_spread": 6.5,
         "team2_spread": -6.5,
-        "over_under": 43.5,
-        "game_time": "Mon Dec 16 20:00:00 2024"
+        "over_under": 45.0,
+        "game_time": "Sat Dec 21 16:31:00 2024"
     },
     {
-        "team1": "Atlanta Falcons",
+        "team1": "Cleveland Browns",
+        "team2": "Cincinnati Bengals",
+        "team1_line": 280,
+        "team2_line": -355,
+        "team1_spread": 7.5,
+        "team2_spread": -7.5,
+        "over_under": 47.0,
+        "game_time": "Sun Dec 22 13:00:00 2024"
+    },
+    {
+        "team1": "Los Angeles Rams",
+        "team2": "New York Jets",
+        "team1_line": -175,
+        "team2_line": 145,
+        "team1_spread": -3.0,
+        "team2_spread": 3.0,
+        "over_under": 46.5,
+        "game_time": "Sun Dec 22 13:00:00 2024"
+    },
+    {
+        "team1": "Arizona Cardinals",
+        "team2": "Carolina Panthers",
+        "team1_line": -218,
+        "team2_line": 180,
+        "team1_spread": -4.5,
+        "team2_spread": 4.5,
+        "over_under": 47.0,
+        "game_time": "Sun Dec 22 13:01:00 2024"
+    },
+    {
+        "team1": "New York Giants",
+        "team2": "Atlanta Falcons",
+        "team1_line": 330,
+        "team2_line": -425,
+        "team1_spread": 8.5,
+        "team2_spread": -8.5,
+        "over_under": 42.0,
+        "game_time": "Sun Dec 22 13:01:00 2024"
+    },
+    {
+        "team1": "Detroit Lions",
+        "team2": "Chicago Bears",
+        "team1_line": -305,
+        "team2_line": 245,
+        "team1_spread": -6.5,
+        "team2_spread": 6.5,
+        "over_under": 48.0,
+        "game_time": "Sun Dec 22 13:01:00 2024"
+    },
+    {
+        "team1": "Tennessee Titans",
+        "team2": "Indianapolis Colts",
+        "team1_line": 160,
+        "team2_line": -192,
+        "team1_spread": 3.5,
+        "team2_spread": -3.5,
+        "over_under": 42.5,
+        "game_time": "Sun Dec 22 13:01:00 2024"
+    },
+    {
+        "team1": "Philadelphia Eagles",
+        "team2": "Washington Commanders",
+        "team1_line": -180,
+        "team2_line": 150,
+        "team1_spread": -3.5,
+        "team2_spread": 3.5,
+        "over_under": 45.5,
+        "game_time": "Sun Dec 22 13:01:00 2024"
+    },
+    {
+        "team1": "Minnesota Vikings",
+        "team2": "Seattle Seahawks",
+        "team1_line": -166,
+        "team2_line": 140,
+        "team1_spread": -3.0,
+        "team2_spread": 3.0,
+        "over_under": 43.5,
+        "game_time": "Sun Dec 22 16:06:00 2024"
+    },
+    {
+        "team1": "New England Patriots",
+        "team2": "Buffalo Bills",
+        "team1_line": 625,
+        "team2_line": -950,
+        "team1_spread": 14.0,
+        "team2_spread": -14.0,
+        "over_under": 46.5,
+        "game_time": "Sun Dec 22 16:25:00 2024"
+    },
+    {
+        "team1": "San Francisco 49ers",
+        "team2": "Miami Dolphins",
+        "team1_line": -105,
+        "team2_line": -115,
+        "team1_spread": 1.0,
+        "team2_spread": -1.0,
+        "over_under": 44.5,
+        "game_time": "Sun Dec 22 16:25:00 2024"
+    },
+    {
+        "team1": "Jacksonville Jaguars",
         "team2": "Las Vegas Raiders",
-        "team1_line": -205,
-        "team2_line": 170,
-        "team1_spread": -4.0,
-        "team2_spread": 4.0,
-        "over_under": 44.0,
-        "game_time": "Mon Dec 16 20:30:00 2024"
+        "team1_line": -102,
+        "team2_line": -118,
+        "team1_spread": 1.0,
+        "team2_spread": -1.0,
+        "over_under": 40.0,
+        "game_time": "Sun Dec 22 16:26:00 2024"
+    },
+    {
+        "team1": "Tampa Bay Buccaneers",
+        "team2": "Dallas Cowboys",
+        "team1_line": -198,
+        "team2_line": 164,
+        "team1_spread": -3.5,
+        "team2_spread": 3.5,
+        "over_under": 48.5,
+        "game_time": "Sun Dec 22 20:21:00 2024"
+    },
+    {
+        "team1": "New Orleans Saints",
+        "team2": "Green Bay Packers",
+        "team1_line": 625,
+        "team2_line": -950,
+        "team1_spread": 14.0,
+        "team2_spread": -14.0,
+        "over_under": 42.5,
+        "game_time": "Mon Dec 23 20:15:00 2024"
+    },
+    {
+        "team1": "Kansas City Chiefs",
+        "team2": "Pittsburgh Steelers",
+        "team1_line": -135,
+        "team2_line": 114,
+        "team1_spread": -2.5,
+        "team2_spread": 2.5,
+        "over_under": 42.5,
+        "game_time": "Wed Dec 25 13:00:00 2024"
+    },
+    {
+        "team1": "Baltimore Ravens",
+        "team2": "Houston Texans",
+        "team1_line": -148,
+        "team2_line": 124,
+        "team1_spread": -2.5,
+        "team2_spread": 2.5,
+        "over_under": 47.5,
+        "game_time": "Wed Dec 25 16:30:00 2024"
     }
 ]
