@@ -47,7 +47,7 @@ Week 16
     start = parser.parse("2024-12-19T00:00:00Z")
     stop = parser.parse("2024-12-25T23:59:59Z")
 Week 17
-    start = parser.parse("2024-12-26T00:00:00Z")
+    start = parser.parse("2024-12-25T00:00:00Z")
     stop = parser.parse("2025-01-01T23:59:59Z") 
 Week 18
     start = parser.parse("2025-01-02T00:00:00Z")
